@@ -9,7 +9,7 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         
         //Criação do Scanner para entrada de dados
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);;
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
         //Variavel num recebe o numero da conta (variavel tipo Integer)
         System.out.print("Por favor, insira o número de sua conta: ");
@@ -28,7 +28,7 @@ public class ContaTerminal {
         System.out.print("Por favor, insira seu saldo: ");
         var saldo = sc.nextDouble();
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %i e seu saldo %f já está disponível para saque", nome, agen, num, saldo);
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %f já está disponível para saque", nome, agen, num, saldo);
 
         sc.close();
     }
